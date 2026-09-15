@@ -58,30 +58,14 @@ Each mapped holding centre should contain the following attributes:
 
 ## Geometry
 
-Holding centres should be mapped as **polygon or point features**, with **polygon being the first priority**.
+Holding centres should be mapped as **point features**.
 
-### Polygon — First Priority
-
-Map the **building footprint** of the holding centre as a polygon whenever it can be clearly identified.
-
-- Trace the building footprint as accurately as possible using available imagery.
-- If the holding centre occupies a specific building within a larger complex, map only the relevant building.
-- Do not include surrounding roads, open spaces, or unrelated buildings.
-- Use the most recent and suitable imagery available.
-
-### Point — When Polygon Is Not Possible
-
-Use a point when the building footprint cannot be clearly identified.
+Use a point feature to map the holding centre location.
 
 - Place the point at the centre of the facility when its location can be clearly identified.
 - Use the approximate location when the exact facility location cannot be determined.
 - Use the reported location when information is obtained from an authoritative source.
-
-**Mapping priority: Polygon → Point**
-
-Do not create both a polygon and a point for the same holding centre. Do not create multiple points for the same holding centre.
-
----
+- Do not create multiple points for the same holding centre.
 
 ## Recommended Imagery
 
@@ -90,8 +74,6 @@ Use the most recent and suitable imagery available for identifying the location 
 Recommended sources:
 
 1. **Esri World Imagery**
-2. **Google Earth / Google Earth Pro**
-3. Other reliable satellite or aerial imagery where appropriate
 
 Imagery should be used together with available official information wherever possible.
 
@@ -104,7 +86,7 @@ Prioritize authoritative and verifiable sources.
 Examples include:
 
 - Local government / municipality
-- District Administration Office
+- District Administration Office (eg: For rasuwa - http://daorasuwa.moha.gov.np:8087/post/rasa-va-b-dha-pa-ra-sa-na-ta-gata-8)
 - Nepal Government agencies
 - Official emergency response updates
 - Reliable satellite or aerial imagery
