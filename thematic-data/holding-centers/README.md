@@ -84,12 +84,12 @@ Imagery should be used together with available official information wherever pos
 Prioritize authoritative and verifiable sources.
 
 Examples include:
-
-- Local government / municipality
-- District Administration Office (eg: For rasuwa - http://daorasuwa.moha.gov.np:8087/post/rasa-va-b-dha-pa-ra-sa-na-ta-gata-8)
-- Nepal Government agencies
-- Official emergency response updates
-- Reliable satellite or aerial imagery
+- NDRRMA Rapid Damage and Needs Assessment Report
+  https://ndrrma.gov.np/np/study-report/416
+- District Administration Office
+  For Rasuwa - http://daorasuwa.moha.gov.np:8087/post/rasa-va-b-dha-pa-ra-sa-na-ta-gata-8)
+  For Nuwakot - https://daonuwakot.moha.gov.np/post/na-va-ka-ta-ja-l-l-ka-b-dha-apada-ta-05-28-gata-b-l-ka-bja
+  For Dhading - 
 
 Always record the source in the `source` field.
 
