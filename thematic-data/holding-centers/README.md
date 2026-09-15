@@ -44,7 +44,12 @@ Each mapped holding centre should contain the following attributes:
 | `poc_name` | Name of Focal Person | Yes |
 | `poc_contact` | Contact of Focal Person | Yes |
 | `estimated_capacity` | Estimated number of people the centre can accommodate | If available |
-| `current_population` | Current number of people staying at the centre | If available |
+| `current_population` | Current number of people (total) staying at the centre | If available |
+| `male_population` | Number of male population staying at the centre | If available |
+| `female_population` | Number of female population staying at the centre | If available |
+| `elderly_population` | Number of elderly population staying at the centre | If available |
+| `child_population` | Number of child population staying at the centre | If available |
+| `population_date` | Published date from data source | If available |
 | `status` | Current operational status | Yes |
 | `source` | Source of the information | Yes |
 | `remarks` | Additional relevant information | Optional |
