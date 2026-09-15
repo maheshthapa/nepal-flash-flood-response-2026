@@ -41,6 +41,8 @@ Each mapped holding centre should contain the following attributes:
 | `municipality` | Municipality where the centre is located | Yes |
 | `ward` | Ward number | Yes |
 | `building_type` | Type of facility | Yes |
+| `poc_name` | Name of Focal Person | Yes |
+| `poc_contact` | Contact of Focal Person | Yes |
 | `estimated_capacity` | Estimated number of people the centre can accommodate | If available |
 | `current_population` | Current number of people staying at the centre | If available |
 | `status` | Current operational status | Yes |
@@ -193,17 +195,12 @@ Example:
 Organize the data as follows:
 
 ```text
-01_holding_centres/
+thematic-data/holding-centres
 │
 ├── README.md
 │
-├── data_template/
+├── raw/
 │   └── holding_centres_template.gpkg
 │
-├── digitized_layers/
-│   ├── rasuwa/
-│   ├── nuwakot/
-│   ├── dhading/
-│   ├── chitwan/
-│   ├── gorkha/
-├── └── tanahun/
+├── verified/
+    ├── holding_centres_template.gpkg
